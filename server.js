@@ -34,7 +34,6 @@ app.use((req, res) => {
   res.status(404).render("error", { message: "404 Not Found" });
 });
 
-// Server startup
 const PORT = 3000;
 app.listen(PORT, () => {
   console.log(`Task Manager running at http://localhost:${PORT}/`);
