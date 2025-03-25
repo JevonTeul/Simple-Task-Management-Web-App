@@ -1,0 +1,18 @@
+{
+  "name": "simple-task-management-web-app",
+  "version": "1.0.0",
+  "description": "A simple task management web application built with **Node.js**, **Express**, **EJS**, and **CSS**. This app allows users to manage tasks, mark them as completed, move them to a trash system, and restore or permanently delete them.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Jevon Teul",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  }
+}
